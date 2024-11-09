@@ -1,5 +1,5 @@
 body{
-  
+    margin: 0px;
     // <uniquifier>: Use a unique and descriptive class name
     // <weight>: Use a value from 100 to 900
     
@@ -8,6 +8,7 @@ body{
       font-optical-sizing: auto;
       font-weight: <weight>;
       font-style: normal;
+      
     }
 }
 h1{
@@ -25,4 +26,29 @@ h1{
 }
 #half{
     width: 100%;
+}
+.background{
+    
+    background-image: url("top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+.button{
+    color: white;
+    text-decoration: none;
+    background-image: linear-gradient(yellow,red);
+    padding: 10px 40px;
+    border-radius: 10px;
+    
+}
+.picture{
+    width: 100%;
+}
+.dream-area{
+    background-image: url(pictures/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
