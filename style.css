@@ -1,0 +1,28 @@
+body{
+  
+    // <uniquifier>: Use a unique and descriptive class name
+    // <weight>: Use a value from 100 to 900
+    
+    .raleway-<uniquifier> {
+      font-family: "Raleway", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: <weight>;
+      font-style: normal;
+    }
+}
+h1{
+    font-size: 50px;
+}
+.first{
+    color:red;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 3%;
+    padding-left: 4%;
+
+}
+#half{
+    width: 100%;
+}
